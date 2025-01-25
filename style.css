@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #c9d1e7;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+   
+}
+
+.file-input-container {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-file-label {
+    display: inline-block;
+    padding: 15px ;
+    background-color: #7054bd;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-label:hover {
+    background-color: #6d4fa1;
+}
+
+
+  img {
+    height: 70px; /* Adjust the height as needed */
+    width: auto;  /* Maintain the aspect ratio of the logo */
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px rgb(104, 250, 136));
+  }
+
+  h1 {
+    margin-top: 3%;
+    font-size: 2rem;
+    color: #16171880;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7054bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d4fa1;
+}
+
+.hidden {
+    display: none;
+}
+.footer {
+    background-color: #b9beca;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    width: 100%;
+    position:fixed; /* Sticks the footer at the bottom */
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+  

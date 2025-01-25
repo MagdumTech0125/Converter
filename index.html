@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel By Magdum Tech</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+     
+</head>
+
+
+<body>
+    <script src="myscripts.js"></script>
+    <div class="container">
+        <div>
+            <img src="images/logo.png" alt="Logo" class="logo" />
+
+        </div>
+        <div class="heading">
+            <h1>DB to Excel Converter</h1>
+        </div>
+        <div class="file-input-container">
+            <label for="dbFile" class="custom-file-label">Select File</label>
+            <input type="file" id="dbFile" class="file-input" accept=".db">
+        </div>
+        <div>
+            <button id="downloadButton" class="hidden">Download Excel</button>
+        </div>
+        
+        <table id="dataTable">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+        <footer class="footer">
+            <div class="footer-content">
+              <p>&copy; All rights reserved, <a href="http://www.magdumtechnologies.com/">Magdum Technologies</a></p>
+            </div>
+          </footer>
+   
+</body>
+
+</html>
